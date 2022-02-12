@@ -3,3 +3,13 @@
     position: relative;
     display: none;
 }
+.tool-item {
+    height: 100%;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    transition: none;
+    text-decoration: none;
+    color: #fff;
+    display: none;
+}
