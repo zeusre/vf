@@ -13,3 +13,10 @@
     color: #fff;
     display: none;
 }
+@media (max-width: 800px)
+#header .navegador .caja .logo {
+    float: left;
+    margin-right: 20px;
+    padding: 11px 0;
+    background: url("https://hpsaja.com/wp-content/uploads/2019/01/logo-anyar.webp") !important;
+}
