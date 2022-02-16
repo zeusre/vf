@@ -49,3 +49,8 @@ select.mirror {
     margin-bottom: 10px;
     display: none;
 }
+.gmr-social-icon {
+    margin: 0 0 10px;
+    padding: 0;
+    display: none;
+}
