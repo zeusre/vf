@@ -1,0 +1,38 @@
+.navplayer2 ul.player2ul {
+    float: right;
+    position: relative;
+    display: none;
+}
+.tool-item {
+    height: 100%;
+    text-align: center;
+    padding: 10px;
+    transition: none;
+    text-decoration: none;
+    color: #fff;
+    display: none;
+}
+.kln.klmr {
+    margin-left: 0;
+    display: none;
+}
+#sidebar .section .textwidget {
+    padding: 0;
+        padding-bottom: 0px;
+    padding-bottom: 0;
+    line-height: normal;
+    font-size: 13px;
+    display: none;
+}
+select.mirror {
+    float: left;
+    border: 1px solid #0e0d13;
+    border-radius: 4px;
+    color: #ddd;
+    padding: 3px;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 300;
+    background: #0e0d13;
+    display: none;
+}
