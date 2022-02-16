@@ -54,3 +54,31 @@ select.mirror {
     padding: 0;
     display: none;
 }
+#list-server-more {
+    z-index: 1;
+    padding: 10px 0 0 0;
+    position: absolute;
+    color: #fff;
+    top: 0;
+    right: 8px;
+    text-align: right;
+    font-family: Arial,Helvetica,sans-serif;
+    display: none;
+}
+.infeed-ads {
+    padding: 0px 0 18px;
+    display: none;
+}
+.gmr-topbanner {
+    padding-top: 18px;
+    display: none;
+}
+.gmr-banner-afterrelpost {
+    background-color: #ffffff;
+    padding: 0 0 14px;
+    display: none;
+}
+.customizable-background {
+    background-color: #ffffff !important;
+    display: none;
+}
