@@ -36,3 +36,16 @@ select.mirror {
     background: #0e0d13;
     display: none;
 }
+.idmuvi-topbanner-aftermenu {
+    margin-bottom: 10px;
+    text-align: center;
+    display: none;
+}
+.idmuvi-banner-insidecontent {
+    margin-bottom: 10px;
+    display: none;
+}
+.idmuvi-banner-aftercontent {
+    margin-bottom: 10px;
+    display: none;
+}
