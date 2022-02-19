@@ -17,3 +17,18 @@
 .lazy {
   display:none;
 }
+.list-anime {
+    position: relative;
+    padding: 12px;
+    background: #fff;
+    margin-top: 1px;
+    margin-bottom: 3px;
+    width: 130px;
+    display: inline-table;
+    word-wrap: break-word;
+    height: 183px;
+    vertical-align: middle;
+}
+.image::before {
+   content:url('https://anoboy.biz/img/118956l.jpg');
+}
