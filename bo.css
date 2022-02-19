@@ -1,0 +1,39 @@
+.title {
+    font-weight: 400;
+    background: #f21c1c;
+        background-image: none;
+    background-image: linear-gradient(to bottom,#f21c1c,#f21c1c);
+    padding: 13px;
+    color: #fff;
+    font-size: 16px;
+    vertical-align: middle;
+}
+.kotakcari {
+    background: #f21c1c;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.lazy {
+  display:none;
+}
+.list-anime {
+    position: relative;
+    padding: 12px;
+    background: #fff;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-image: none;
+        background-size: auto;
+    margin-top: 1px;
+    margin-bottom: 3px;
+    width: 130px;
+    display: inline-table;
+    word-wrap: break-word;
+    background-image: url('https://cdn.statically.io/gh/zeusre/vf/main/ano.png') !important;
+    background-size: 130px 153px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 183px;
+}
