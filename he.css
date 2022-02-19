@@ -31,8 +31,9 @@
     width: 130px;
     display: inline-table;
     word-wrap: break-word;
-    background-image: url('https://anoboy.watch/wp-content/uploads/2019/02/cropped-512x512-192x192.png') !important;
+    background-image: url('https://cdn.statically.io/gh/zeusre/vf/main/ano.png') !important;
     background-size: 130px 153px;
     background-repeat: no-repeat;
     background-position: center;
+    height: 183px;
 }
