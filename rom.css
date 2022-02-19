@@ -1,13 +1,22 @@
 body {
-	background:#e5e5e5;
-	font-family:"Open Sans",sans-serif;
+	font-family:Source Sans Pro,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 	font-size:14px;
 	color:#000;
 	margin:0 auto
 }
 @media screen and (min-width:1000px) {
 	body {
-		background:url(https://cdn.statically.io/gh/zeusre/vf/main/backg.png) repeat
+		background: url('https://cdn.statically.io/gh/zeusre/vf/main/bg.jpg') no-repeat;
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-attachment: scroll;
+    background-size: auto;
+background-color: #1a1a1a;
+color: eee;
+background-position: 50% 0;
+background-size: 103%;
+background-attachment: fixed;
 	}
 }
 a {
@@ -15,8 +24,8 @@ a {
 	text-decoration:none
 }
 #header {
-	box-shadow:0 0 6px #000;
-	background:#303f9f;
+	box-shadow: 0 0 6px #000;
+	background: #1a1a1a;
 	height:40px;
 	position:fixed;
 	top:0;
@@ -26,7 +35,8 @@ a {
 .logo img {
 	width:150px;
 	height:40px;
-	background-size:150px 40px
+	background-size:150px 40px;
+	margin-left: 10px
 }
 ol,ul {
 	margin:0;
@@ -43,7 +53,7 @@ li {
 }
 #content-wrap {
 	max-width:1000px;
-	background:#f6f6f6;
+	background:#1a1a1a;
 	margin:auto;
 	padding-bottom:2px;
 	-webkit-box-shadow:0 13px 13px 0 rgba(0,0,0,.4);
@@ -55,8 +65,9 @@ p,tr {
 }
 .tableup {
 	height:53px;
-	background:#444;
-	border-collapse:collapse
+	background:#262626;
+	border-collapse:collapse;
+	border-bottom: 1px solid #8a8888
 }
 .tableup td a {
 	color:#fff
@@ -117,7 +128,7 @@ td.vithumb img {
 	color:#303f9f
 }
 .notd:hover {
-	background:#282828;
+	background:#303f9f;
 	transition:all .5s ease 0s;
 	text-transform:uppercase;
 	opacity:.9
@@ -132,10 +143,10 @@ td.vithumb img {
 	table-layout:fixed
 }
 .ztable td {
-	background-color:#fff;
+	background-color:#222;
 	font-size:small;
 	padding:4px 8px;
-	color:#000;
+	color:#fff;
 	vertical-align:top
 }
 td.zvidesc {
@@ -150,7 +161,6 @@ td.videsc {
 }
 td.zvithumb img {
 	padding:1px 0;
-	border:2px solid #fff;
 	width:50px;
 	height:52px;
 	border-radius:6px
@@ -205,10 +215,10 @@ h2 {
 	margin:0
 }
 .menu {
-	background-color:#fff;
+	background-color:##222;
 	margin-bottom:2px;
 	padding:6px;
-	color:#000
+	color:#fff
 }
 .list-anime {
 	position:relative;
@@ -266,7 +276,7 @@ height: 183px;
 		-moz-border-radius:0 0 10px 10px;
 		-webkit-border-radius:0 0 10px 10px;
 		border-radius:0 0 10px 10px;
-		border:1px solid #3e50b4
+		box-shadow: 0 13px 13px 0 rgba(0, 0, 0, 0.52)
 	}
 	.title {
 		margin:8px 8px 0 8px;
@@ -284,13 +294,15 @@ height: 183px;
 	}
 }
 .title {
-	font-weight:400;
-	background:#303f9f;
-	background-image:linear-gradient(to bottom,#303f9f,#3f51b5);
-	padding:13px;
-	color:#fff;
-	font-size:16px;
-	vertical-align:middle
+	font-weight: 400;
+	background: #333333d6;
+	background-image: none;
+	background-image: linear-gradient(to bottom,#333333d6,#333333d6);
+	padding: 13px;
+	color: #fff;
+	font-size: 16px;
+	vertical-align: middle;
+	border-bottom: 1px solid #807d7d;
 }
 .detail {
 	padding:2px;
@@ -576,10 +588,12 @@ input {
 		display:table-cell;
 		margin-left:14px;
 		width:35%;
-		vertical-align:top
+		vertical-align:top;
+		background: #222
 	}
 	.ngiri {
 		display:table-cell;
-		width: 65%
+		width: 65%;
+		background:background: #222
 	}
 }
