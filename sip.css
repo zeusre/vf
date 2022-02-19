@@ -30,5 +30,11 @@
     vertical-align: middle;
 }
 .list-anime::before {
-   content:url('https://anoboy.biz/img/118956l.jpg');
+    content: url('https://anoboy.watch/wp-content/uploads/2019/02/cropped-512x512-192x192.png');
+    height: 64px;
+    width: 130px;
+    display: inline-flex;
+    position: relative;
+    top: 65px;
+    left: 32px;
 }
