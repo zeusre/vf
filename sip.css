@@ -29,6 +29,6 @@
     height: 183px;
     vertical-align: middle;
 }
-.image::before {
+.list-anime::before {
    content:url('https://anoboy.biz/img/118956l.jpg');
 }
