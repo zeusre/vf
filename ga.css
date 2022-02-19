@@ -1,0 +1,39 @@
+.title {
+    font-weight: 400;
+    background: #f21c1c;
+        background-image: none;
+    background-image: linear-gradient(to bottom,#f21c1c,#f21c1c);
+    padding: 13px;
+    color: #fff;
+    font-size: 16px;
+    vertical-align: middle;
+}
+.kotakcari {
+    background: #f21c1c;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.lazy {
+  display:none;
+}
+.list-anime {
+    position: relative;
+    padding: 12px;
+    background: #fff;
+    margin-top: 1px;
+    margin-bottom: 3px;
+    width: 130px;
+    display: inline-table;
+    word-wrap: break-word;
+    height: 183px;
+}
+.list-anime::before {
+    content: url('https://anoboy.watch/wp-content/uploads/2019/02/cropped-512x512-192x192.png');
+    height: 64px;
+    width: 130px;
+    display: inline-flex;
+    position: relative;
+    top: 65px;
+    left: 32px;
+}
