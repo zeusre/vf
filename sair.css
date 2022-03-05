@@ -340,6 +340,7 @@ textarea {
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
+	display: none;
 }
 
 .top-bar-menu a:hover {
